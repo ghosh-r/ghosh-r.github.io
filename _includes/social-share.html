@@ -50,6 +50,14 @@
     </a>
   {% endif %}
 
+  {% if site.share-links-active.telegram %}
+  <a href="https://t.me/share/url?url={{ page.url | absolute_url | url_encode }}&text={{ page.title }}"
+    class="btn btn-social-icon btn-telegram" title="Share on Telegram">
+    <span class="fab fa-fw fa-telegram" aria-hidden="true"></span>
+    <span class="sr-only">Telegram</span>
+  </a>
+  {% endif %}
+
 </section>
 
 {% endif %}
