@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Plan for Next Twelve Months
+title: My Plans for the Next Twelve Months
 subtitle: A Framework for My Endeavors in Deep Learning for the Next Year
 gh-repo: ghosh-r/ghosh-r.github.io
 gh-badge: [star, follow]
