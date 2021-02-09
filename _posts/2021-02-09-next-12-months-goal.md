@@ -6,7 +6,7 @@ gh-repo: ghosh-r/ghosh-r.github.io
 gh-badge: [star, follow]
 tags: [deep-learning, plans, computer-vision, pytorch, deep-reinforcement-learning, gans]
 comments: true
-cover-img: /assets/img/2021-02-09-next-12-months-goal-0.jpg.jpg
+cover-img: /assets/img/2021-02-09-next-12-months-goal-0.jpg
 ---
 
 *"In preparing for battle I have always found that plans are useless, but planning is indispensable."*
