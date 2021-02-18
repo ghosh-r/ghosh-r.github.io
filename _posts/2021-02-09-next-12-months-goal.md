@@ -45,7 +45,7 @@ If you are here, it is a good place to connect with me. And I have already liste
 * [GitHub](https://github.com/ghosh-r)
 * [Kaggle](https://www.kaggle.com/truthr)
 * [Twitter](https://twitter.com/allesistkode)
-* [Medium](https://medium.com/@r.ghosh)
+* [Medium](https://medium.com/@ghosh-r)
 * [LinkedIn](https://www.linkedin.com/in/ritobrata-ghosh/)
 * [Instagram](https://www.instagram.com/rito.dl/)
 
