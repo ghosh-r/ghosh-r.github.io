@@ -58,7 +58,7 @@ Lex Fridman is an AI researcher working on autonomous vehicles, and human-robot 
 The topics on his podcast transcend the AI universe. He has had guests like Roger Penrose, Richard Dawkins, and Noam Chomsky. A significant portion of his interviews *are* on AI. His interviews are generally long, and hence have much more scope to discuss topics in an in-depth, detailed manner. I really like that.
 
 * Length per episode: 60-180 minutes
-* Favorite episode so far: [David Silver: AlphaGo, AlphaZero, and Deep Reinforcement Learning | Lex Fridman Podcast #86](https://www.youtube.com/watch?v=uPUEq8d73JI)
+* Favorite episode so far: [David Silver: AlphaGo, AlphaZero, and Deep Reinforcement Learning \| Lex Fridman Podcast #86](https://www.youtube.com/watch?v=uPUEq8d73JI)
 
 ### 4. [Chai Time Data Science](https://sanyambhutani.com/tag/chaitimedatascience/)
 *hosted by [Sanyam Bhutani](https://sanyambhutani.com/)*
@@ -70,7 +70,7 @@ Sanyam Bhutani is a community man. Period. As a Data Scientist at h2o.ai, he wri
 This podcast hosts a lot of Kaggle Competition winners and Grandmasters. He talks about the guests' journey, career, and current research, projects, and interests. And, then there is Kaggle! He often interviews winners of particular competitions and asks about their thinking and approach to those particular competitions. These are really informative for people competing on Kaggle, and/or interested in developing full pipelines for any project. It is very interesting to see the diverse set of people from diverse backgrounds win Kaggle competitions, and talk about their careers, lives, and Kaggle on this podcast.
 
 * Length per episode: 30-90 minutes
-* Favorite episode so far: [Chris Deotte | Secrets to Becoming 4x Kaggle Grandmaster | Discussions and Notebooks](https://www.youtube.com/watch?v=QGCvycOXs2M)
+* Favorite episode so far: [Chris Deotte \| Secrets to Becoming 4x Kaggle Grandmaster \| Discussions and Notebooks](https://www.youtube.com/watch?v=QGCvycOXs2M)
 
 ### 5. [Machine Learning Street Talks](https://www.youtube.com/channel/UCMLtBahI5DMrt0NPvDSoIRQ)
 *hosted by [Yannic Kilcher](https://twitter.com/ykilcher), [Dr. Tim Scarfe](https://twitter.com/ecsquendor), and [Keith Dugger](https://mit.academia.edu/KeithDuggar)*
@@ -92,7 +92,7 @@ Of course, you have noticed that "+1" in the title. I am including these resourc
 
 If you visit the Microsoft Research YouTube page, you will see many playlists that will kindle your excitement. For example, the [AI Distinguished Lecture Series](https://www.youtube.com/playlist?list=PLD7HFcN7LXRdF6EcEFmrXGo4pngaR4Z_p) contains many thought-provoking talks in AI. The same goes with Talks at Google.
 
-TED has quite a few talks on Data Science, AI, and its impact. And TED has been covering Data Analysis, AI, etc. years before these fields blew up. I remember listening to a talk- [Making data mean more through storytelling | Ben Wellington](https://www.youtube.com/watch?v=6xsvGYIxJok) which was given back in 2015 that highlights how creative, yet simple Data Analysis can reveal many important insights, and how it can make lives better by influencing government policies. There's another talk that I will mention- [Daphne Koller: What we're learning from online education](https://www.youtube.com/watch?v=U6FvJ6jMGHU). The co-founder of Coursera gives us many deep insights about online education and how data are at the core and crux of it. This is yet another example of data transforming something fundamental like education, and impacting the lives of millions positively.
+TED has quite a few talks on Data Science, AI, and its impact. And TED has been covering Data Analysis, AI, etc. years before these fields blew up. I remember listening to a talk- [Making data mean more through storytelling \| Ben Wellington](https://www.youtube.com/watch?v=6xsvGYIxJok) which was given back in 2015 that highlights how creative, yet simple Data Analysis can reveal many important insights, and how it can make lives better by influencing government policies. There's another talk that I will mention- [Daphne Koller: What we're learning from online education](https://www.youtube.com/watch?v=U6FvJ6jMGHU). The co-founder of Coursera gives us many deep insights about online education and how data are at the core and crux of it. This is yet another example of data transforming something fundamental like education, and impacting the lives of millions positively.
 
 * Length per episode: mixed
 
