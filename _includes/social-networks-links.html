@@ -48,6 +48,18 @@
   </li>
 {%- endif -%}
 
+{%- if site.social-network-links.kaggle -%}
+  <li class="list-inline-item">
+    <a href="https://www.kaggle.com/{{ site.social-network-links.kaggle }}" title="Kaggle">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-kaggle fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Kaggle</span>
+   </a>
+  </li>
+{%- endif -%}
+
 {%- if site.social-network-links.telegram -%}
   <li class="list-inline-item">
     <a href="https://t.me/{{ site.social-network-links.telegram }}" title="Telegram">
@@ -110,7 +122,7 @@
 
 {%- if site.social-network-links.dev -%}
   <li class="list-inline-item">
-    <a href="https://dev.to/{{ site.social-network-links.dev-to }}" title="DEV">
+    <a href="https://dev.to/{{ site.social-network-links.dev }}" title="DEV">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fab fa-dev fa-stack-1x fa-inverse"></i>
