@@ -26,7 +26,7 @@ _____
 Here are the podcasts that I highly recommend for ML learners and professionals-
 
 ### 1. [Gradient Dissent](https://wandb.ai/site/podcast)
-*from Weights and Biases, hosted by [Lukas Biewald](https://twitter.com/l2k?)*
+*from Weights and Biases, hosted by [Lukas Biewald](https://twitter.com/l2k)*
 
 > ***“The podcast episodes are very informative, crisp, to-the-point, and engaging.”***
 
