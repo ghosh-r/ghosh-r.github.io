@@ -16,6 +16,11 @@ navbar-links:
   About Me: "aboutme"
   Learning Deep: "https://medium.com/learningdeep"
   Kaggle: "https://www.kaggle.com/truthr"
+  Substack: "https://rito.substack.com"
+  Donate❤:
+    - Librepay: "https://liberapay.com/ghoshr"
+    - Ko-Fi: "https://ko-fi.com/ghoshr"
+    - Buy Me a Coffee: "buymeacoffee.com/ghoshr"
 #   Resources:
 #     - Beautiful Jekyll: "https://beautifuljekyll.com"
 #     - Learn markdown: "https://www.markdowntutorial.com/"
