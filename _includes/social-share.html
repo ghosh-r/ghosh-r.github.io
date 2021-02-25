@@ -57,6 +57,14 @@
     <span class="sr-only">Telegram</span>
   </a>
   {% endif %}
+  
+   {% if site.share-links-active.hacker-news %}
+  <a href="https://news.ycombinator.com/submitlink?u={{ page.url | absolute_url | url_encode }}/&t={{ page.title }}"
+    class="btn btn-social-icon btn-hacker-news" title="Share on Y Combinator">
+    <span class="fab fa-fw fa-hacker-news" aria-hidden="true"></span>
+    <span class="sr-only">Telegram</span>
+  </a>
+  {% endif %}
 
 </section>
 
