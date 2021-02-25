@@ -67,11 +67,11 @@ rss-description: RSS of the site
 # Select which social network share links to show in posts
 share-links-active:
   twitter: true
-  facebook: false
   linkedin: true
   vk: true
   reddit: true
   telegram: true
+  hacker-news: true
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
