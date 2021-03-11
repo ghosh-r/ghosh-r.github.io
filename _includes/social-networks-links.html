@@ -131,6 +131,18 @@
    </a>
   </li>
 {%- endif -%}
+  
+{%- if site.social-network-links.goodreads -%}
+  <li class="list-inline-item">
+    <a href="https://goodreads.com/{{ site.social-network-links.goodreads }}" title="Goodreads">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-goodreads fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Goodreads.com</span>
+   </a>
+  </li>
+{%- endif -%}
 
 {%- if site.social-network-links.xing -%}
   <li class="list-inline-item">
