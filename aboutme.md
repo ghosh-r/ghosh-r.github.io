@@ -4,7 +4,9 @@ title: About Me
 cover-img: ["/assets/img/aboutme/shallowgan.png", "/assets/img/aboutme/style_transfer.png"]
 ---
 
-Hi, I am Ritobrata Ghosh.
+Hi, I am [Ritobrata Ghosh](https://www.linkedin.com/in/ritobrata-ghosh/).
+
+I am a Deep Learning Consultant based in Kolkata, India, currently working for a beverage company based in Colombo, Sri Lanka. I am applying Computer Vision to solve a problem in a novel field.
 
 I am an undergraduate student studying Physics, Mathematics, and Computer Science. I enjoy solving problems, and learning new things.
 
