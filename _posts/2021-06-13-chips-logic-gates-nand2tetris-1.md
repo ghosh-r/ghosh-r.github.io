@@ -98,7 +98,7 @@ For the third and fourth occurrences of 1, we get ab\*c, and abc\*, respectively
 We have to add them. And doing so, we get-
 
 
-\\[y = \overline{a}\overline{b}\overline{c} + a\overline{b}\overline{c} + a\overline{b}c + ab\overline{c}\\]
+$$ y = \overline{a}\overline{b}\overline{c} + a\overline{b}\overline{c} + a\overline{b}c + ab\overline{c} $$
 
 [You are required to write cases in the proper order. The first of three variable has these values row-wise- 0-0-0-0-1-1-1-1, the second one varies- 0-0-1-1-0-0-1-1, and the third one- 0-1-0-1-0-1-0-1-0.]
 
@@ -287,7 +287,7 @@ Suppose you want to implement a XOR gate from basic gates. And the truth-table w
 
 This will be your Boolean expression-
 
-%[<iframe src="https://math.embed.fun/embed/9L4ZPSpzQ49s4fNF4mePLF" frameborder="0" width="2150" height="100"></iframe>]
+$$ y = \overline{a}b + a\overline{b} $$
 
 And this will be your HDL implementation.
 
