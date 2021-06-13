@@ -6,7 +6,7 @@ gh-repo: ghosh-r/ghosh-r.github.io
 gh-badge: [star, follow]
 tags: [nand2tetris, computer-science, digital-electronics, logic-gates, logic]
 comments: true
-cover-img: /assets/img/2021-06-13-chips-logic-gates-nand2tetris-1.png
+cover-img: /assets/img/2021-06-13-chips-logic-gates-nand2tetris-1-1.png
 ---
 
 ### Introduction
@@ -24,6 +24,7 @@ Whether we are self-taught programmers or a person with a 4-year CS degree, we w
 A book that I have come across- [*The Elements of Computing Systems*](https://mitpress.mit.edu/books/elements-computing-systems-second-edition) by By Noam Nisan and Shimon Schocken does just that. It teaches you how the basic building blocks of modern computers actually create the computers.
 
 ![nand2tetris-book-cover-2ed](https://mitpress.mit.edu/sites/default/files/styles/large_book_cover/http/mitp-content-server.mit.edu%3A18180/books/covers/cover/%3Fcollid%3Dbooks_covers_0%26isbn%3D9780262539807%26type%3D.jpg?itok=KlT7RdFp)
+
 *[Although it shows the new 2nd edition, I am reading the first one]*
 
 It promises to teach you, actively, how we can start from nothing but a NAND gate and go all the way to a full-fledged computer with an operating system, and a general-purpose programming language that runs on it, which can be used to create anything. The book is also known as ***nand2tetris***.
@@ -97,7 +98,7 @@ For the third and fourth occurrences of 1, we get ab\*c, and abc\*, respectively
 We have to add them. And doing so, we get-
 
 
-%[<iframe src="https://math.embed.fun/embed/9qEhJxAqn9mMxUW8WK3CWq" frameborder="0" width="2150" height="100"></iframe>]
+\\[y = \overline{a}\overline{b}\overline{c} + a\overline{b}\overline{c} + a\overline{b}c + ab\overline{c}\\]
 
 [You are required to write cases in the proper order. The first of three variable has these values row-wise- 0-0-0-0-1-1-1-1, the second one varies- 0-0-1-1-0-0-1-1, and the third one- 0-1-0-1-0-1-0-1-0.]
 
