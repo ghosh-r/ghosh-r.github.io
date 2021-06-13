@@ -14,9 +14,10 @@ author: Ritobrata Ghosh
 
 navbar-links:
   About Me: "aboutme"
-  Learning Deep: "https://medium.com/learningdeep"
+  Convoluted (Blog): "https://medium.com/learningdeep"
   Kaggle: "https://www.kaggle.com/truthr"
-  Substack: "https://rito.substack.com"
+  Newsletter: "https://rito.substack.com"
+  Translations: "https://csresourcestranslations.wordpress.com/"
   Donate❤:
     - Librepay: "https://liberapay.com/ghoshr"
     - Ko-Fi: "https://ko-fi.com/ghoshr"
