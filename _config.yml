@@ -14,10 +14,11 @@ author: Ritobrata Ghosh
 
 navbar-links:
   About Me: "aboutme"
-  Convoluted (Blog): "https://medium.com/learningdeep"
-  Kaggle: "https://www.kaggle.com/truthr"
-  Newsletter: "https://rito.substack.com"
-  Translations: "https://csresourcestranslations.wordpress.com/"
+  Convoluted (Blog): "https://learning-deep.hashnode.dev/"
+  Link:
+    - Kaggle: "https://www.kaggle.com/truthr"
+    - Translations: "https://csresourcestranslations.wordpress.com/"
+    - Newsletter: "https://rito.substack.com"
   Donate❤:
     - Librepay: "https://liberapay.com/ghoshr"
     - Ko-Fi: "https://ko-fi.com/ghoshr"
