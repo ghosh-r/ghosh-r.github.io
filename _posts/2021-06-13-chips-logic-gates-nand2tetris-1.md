@@ -100,7 +100,7 @@ We have to add them. And doing so, we get-
 
 $$ y = \overline{a}\overline{b}\overline{c} + a\overline{b}\overline{c} + a\overline{b}c + ab\overline{c} $$
 
-[You are required to write cases in the proper order. The first of three variable has these values row-wise- 0-0-0-0-1-1-1-1, the second one varies- 0-0-1-1-0-0-1-1, and the third one- 0-1-0-1-0-1-0-1-0.]
+[You are required to write cases in the proper order. The first of three variable has these values row-wise- 0-0-0-0-1-1-1-1, the second one varies- 0-0-1-1-0-0-1-1, and the third one- 0-1-0-1-0-1-0-1.]
 
 #### Implementation
 
