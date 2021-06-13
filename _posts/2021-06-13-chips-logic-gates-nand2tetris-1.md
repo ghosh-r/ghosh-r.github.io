@@ -44,7 +44,9 @@ This is where the core of the post comes in.
 I will show you how to implement any Boolean function with nothing but three logic gates. This is a trick worth knowing.
 
 Let's start.
+
 _____
+
 
 ### Implementing a Boolean Function
 
