@@ -9,6 +9,8 @@ comments: true
 cover-img: /assets/img/2021-06-13-chips-logic-gates-nand2tetris-1-1.png
 ---
 
+by [Ritobrata Ghosh](https://ghosh-r.github.io/aboutme)
+
 ### Introduction
 
 Digital electronics is probably the most impactful and widespread technology now. It forms the basis of all of the chips- from ARM microcontrollers to processors in cellphones, all the way to uberpowerful AMD Threadrippers. In all these cases, digital electronics reign supreme.
@@ -311,14 +313,13 @@ CHIP Xor {
 ```
 _____
 
+
 ### Conclusion
 
 I showed you how to implement any Boolean function with nothing but three elementary logic gates. However, you should keep in mind that this approach is impractical when there are more variables, and the chip you want is more complicated.
 
 _______
 
-[Ritobrata Ghosh](https://ghosh-r.github.io) is a Physics undergrad, and a Deep Learning Consultant focused on Computer Vision. I am interested in ML in embedded devices, Private AI (federated learning), Deep RL, and GANs. I am also interested in Maths, problem-solving, and programming in general.
-
-Follow me to get more similar posts.
+Follow the blog to get more similar posts.
 
 Follow me on [Twitter](https://twitter.com/AllesistKode) or connect with me on [LinkedIn](https://www.linkedin.com/in/ritobrata-ghosh/). 
