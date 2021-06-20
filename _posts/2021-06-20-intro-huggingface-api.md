@@ -147,7 +147,9 @@ You pass the sentence with the masked word, and it will predict it. You can choo
 <iframe src="https://www.kaggle.com/embed/truthr/a-gentle-introduction-to-the-hugging-face-api?cellId=6&cellIds=40&kernelSessionId=66118660" height="320" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="A Gentle Introduction to the Hugging Face API"></iframe>
 
 It can predict the words quite well. Just remember to mask the word using `<mask>`.
+
 ___
+
 
 ### Named Entity Recognition
 
