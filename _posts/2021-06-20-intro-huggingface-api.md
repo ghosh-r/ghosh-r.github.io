@@ -224,7 +224,7 @@ The cool thing is that Hugging Face is not limited to Romance languages or Europ
 translator_bn = pipeline("translation", model="Helsinki-NLP/opus-mt-bn-en")
 ```
 
-%[<iframe src="https://www.kaggle.com/embed/truthr/a-gentle-introduction-to-the-hugging-face-api?cellId=6&cellIds=68&kernelSessionId=66118660" height="165" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="A Gentle Introduction to the Hugging Face API"></iframe>]
+<iframe src="https://www.kaggle.com/embed/truthr/a-gentle-introduction-to-the-hugging-face-api?cellId=6&cellIds=68&kernelSessionId=66118660" height="165" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="A Gentle Introduction to the Hugging Face API"></iframe>
 ____
 
 ### Conclusion
