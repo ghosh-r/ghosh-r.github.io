@@ -67,7 +67,7 @@ classifier_sentiment = pipeline("sentiment-analysis")
 That's it. You call the `pipeline()` method with the task you want to accomplish as an argument. And you assign a name to it. You are done now. You can now begin to use the object as a function to achieve what you want. Let's see an example-
 
 
-%[<iframe src="https://www.kaggle.com/embed/truthr/a-gentle-introduction-to-the-hugging-face-api?cellId=6&cellIds=15&kernelSessionId=66118660" height="150" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="A Gentle Introduction to the Hugging Face API"></iframe>]
+<iframe src="https://www.kaggle.com/embed/truthr/a-gentle-introduction-to-the-hugging-face-api?cellId=6&cellIds=15&kernelSessionId=66118660" height="150" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="A Gentle Introduction to the Hugging Face API"></iframe
 
 See, it returns a dictionary contained in a list that has two items, `label` and `score`. The `label` part tells us its prediction, and the `score` tells us its confidence score.
 
@@ -77,7 +77,7 @@ See, it returns a dictionary contained in a list that has two items, `label` and
 
 Let's see another example.
 
-%[<iframe src="https://www.kaggle.com/embed/truthr/a-gentle-introduction-to-the-hugging-face-api?cellId=6&cellIds=17&kernelSessionId=66118660" height="150" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="A Gentle Introduction to the Hugging Face API"></iframe>]
+<iframe src="https://www.kaggle.com/embed/truthr/a-gentle-introduction-to-the-hugging-face-api?cellId=6&cellIds=17&kernelSessionId=66118660" height="150" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="A Gentle Introduction to the Hugging Face API"></iframe
 
 See, how the classifier is aware of my emotion about pineapple pizzas? 🙃
 
@@ -97,7 +97,7 @@ classifier_zero_shot = pipeline("zero-shot-classification")
 
 Then you pass a string, along with the labels of your choice to test how well they correspond to your sentence.
 
-%[<iframe src="https://www.kaggle.com/embed/truthr/a-gentle-introduction-to-the-hugging-face-api?cellId=6&cellIds=25&kernelSessionId=66118660" height="260" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="A Gentle Introduction to the Hugging Face API"></iframe>]
+<iframe src="https://www.kaggle.com/embed/truthr/a-gentle-introduction-to-the-hugging-face-api?cellId=6&cellIds=25&kernelSessionId=66118660" height="260" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="A Gentle Introduction to the Hugging Face API"></iframe
 
 See, the given sentence is about a profession, and the model tells you that. And it knows that it is much more related to education than politics.
 
@@ -116,14 +116,14 @@ generator = pipeline("text-generation")
 
 ```
 
-%[<iframe src="https://www.kaggle.com/embed/truthr/a-gentle-introduction-to-the-hugging-face-api?cellId=6&cellIds=30&kernelSessionId=66118660" height="230" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="A Gentle Introduction to the Hugging Face API"></iframe>]
+<iframe src="https://www.kaggle.com/embed/truthr/a-gentle-introduction-to-the-hugging-face-api?cellId=6&cellIds=30&kernelSessionId=66118660" height="230" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="A Gentle Introduction to the Hugging Face API"></iframe
 
 See what I mean! Even with zero training, it can create logically coherent text that is even interesting to read. Robots will take over writers soon 🤖!
 
 
 You can control the maximum length of the output of the `pipeline`, and even ask for multiple possible outputs, like so-
 
-%[<iframe src="https://www.kaggle.com/embed/truthr/a-gentle-introduction-to-the-hugging-face-api?cellIds=34&kernelSessionId=66128979" height="320" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="A Gentle Introduction to the Hugging Face API"></iframe>]
+<iframe src="https://www.kaggle.com/embed/truthr/a-gentle-introduction-to-the-hugging-face-api?cellIds=34&kernelSessionId=66128979" height="320" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="A Gentle Introduction to the Hugging Face API"></iframe
 
 > *Whoa, it's poetic!*
 
@@ -142,9 +142,9 @@ unmasker = pipeline("fill-mask")
 
 You pass the sentence with the masked word, and it will predict it. You can choose the number of predictions you want to see. You just have to pass a value to the `top_k` parameter.
 
-%[<iframe src="https://www.kaggle.com/embed/truthr/a-gentle-introduction-to-the-hugging-face-api?cellIds=41&kernelSessionId=66128979" height="330" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="A Gentle Introduction to the Hugging Face API"></iframe>]
+<iframe src="https://www.kaggle.com/embed/truthr/a-gentle-introduction-to-the-hugging-face-api?cellIds=41&kernelSessionId=66128979" height="330" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="A Gentle Introduction to the Hugging Face API"></iframe
 
-%[<iframe src="https://www.kaggle.com/embed/truthr/a-gentle-introduction-to-the-hugging-face-api?cellId=6&cellIds=40&kernelSessionId=66118660" height="320" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="A Gentle Introduction to the Hugging Face API"></iframe>]
+<iframe src="https://www.kaggle.com/embed/truthr/a-gentle-introduction-to-the-hugging-face-api?cellId=6&cellIds=40&kernelSessionId=66118660" height="320" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="A Gentle Introduction to the Hugging Face API"></iframe
 
 It can predict the words quite well. Just remember to mask the word using `<mask>`.
 ___
@@ -161,7 +161,7 @@ ner = pipeline("ner", grouped_entities=True)
 
 The `grouped_entities` parameter just ensures that the `pipeline` can recognize the names that have more than one word, like, you know, Chocolate Factory.
 
-%[<iframe src="https://www.kaggle.com/embed/truthr/a-gentle-introduction-to-the-hugging-face-api?cellId=6&cellIds=46&kernelSessionId=66118660" height="400" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="A Gentle Introduction to the Hugging Face API"></iframe>]
+<iframe src="https://www.kaggle.com/embed/truthr/a-gentle-introduction-to-the-hugging-face-api?cellId=6&cellIds=46&kernelSessionId=66118660" height="400" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="A Gentle Introduction to the Hugging Face API"></iframe
 
 See how it recognizes a person, his profession, and location on its own, and also labels them as "PER", "ORG", and "LOC" (meaning location), respectively.
 
@@ -176,11 +176,11 @@ question_answerer = pipeline("question-answering")
 
 ```
 
-%[<iframe src="https://www.kaggle.com/embed/truthr/a-gentle-introduction-to-the-hugging-face-api?cellId=6&cellIds=51&kernelSessionId=66118660" height="210" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="A Gentle Introduction to the Hugging Face API"></iframe>]
+<iframe src="https://www.kaggle.com/embed/truthr/a-gentle-introduction-to-the-hugging-face-api?cellId=6&cellIds=51&kernelSessionId=66118660" height="210" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="A Gentle Introduction to the Hugging Face API"></iframe
 
 It can answer multiple questions from the same prompt.
 
-%[<iframe src="https://www.kaggle.com/embed/truthr/a-gentle-introduction-to-the-hugging-face-api?cellId=6&cellIds=53&kernelSessionId=66118660" height="210" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="A Gentle Introduction to the Hugging Face API"></iframe>]
+<iframe src="https://www.kaggle.com/embed/truthr/a-gentle-introduction-to-the-hugging-face-api?cellId=6&cellIds=53&kernelSessionId=66118660" height="210" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="A Gentle Introduction to the Hugging Face API"></iframe
 
 ____
 
@@ -197,7 +197,7 @@ summarizer = pipeline("summarization")
 
 Let's summarize a piece of text from a [blog post](https://blog.royalsloth.eu/posts/i-wish-i-could-write-this-well/) I recently read.
 
-%[<iframe src="https://www.kaggle.com/embed/truthr/a-gentle-introduction-to-the-hugging-face-api?cellId=6&cellIds=59&kernelSessionId=66118660" height="650" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="A Gentle Introduction to the Hugging Face API"></iframe>]
+<iframe src="https://www.kaggle.com/embed/truthr/a-gentle-introduction-to-the-hugging-face-api?cellId=6&cellIds=59&kernelSessionId=66118660" height="650" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="A Gentle Introduction to the Hugging Face API"></iframe
 
 Now, that's something! The efficacy of the summarizer really shocked me. It does this task so well.
 
@@ -214,7 +214,7 @@ translator_de = pipeline("translation", model="Helsinki-NLP/opus-mt-en-de")
 
 ```
 
-%[<iframe src="https://www.kaggle.com/embed/truthr/a-gentle-introduction-to-the-hugging-face-api?cellId=6&cellIds=64&kernelSessionId=66118660" height="165" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="A Gentle Introduction to the Hugging Face API"></iframe>]
+<iframe src="https://www.kaggle.com/embed/truthr/a-gentle-introduction-to-the-hugging-face-api?cellId=6&cellIds=64&kernelSessionId=66118660" height="165" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="A Gentle Introduction to the Hugging Face API"></iframe
 
 Note that you are not explicitly telling the model about the language of the input language or the output language. A language model is only trained for translating from one language to another. It cannot translate other languages. If you want to translate from German to English, you'd have to use another model from the model hub. You can find all the translation models [here](https://huggingface.co/models?pipeline_tag=translation).
 
