@@ -24,7 +24,9 @@ Here Hugging Face comes to the scene. They aim to solve this problem by providin
 In this article, my goal is to introduce the Hugging Face `pipeline` API to accomplish very interesting tasks by utilizing powerful pre-trained models present in the models hub of Hugging Face.
 
 To follow through this article, you need not have any prior knowledge of Natural Language Processing. I, however, assume minor prior experience in writing Python code.
+
 ___
+
 
 In this article, I will go over, describe, and provide examples for the following tasks using Hugging Face `pipeline`-
 
@@ -61,7 +63,6 @@ Before I begin going through the specific `pipeline`s, let me tell you something
 
 ```py
 classifier_sentiment = pipeline("sentiment-analysis")
-
 ```
 
 That's it. You call the `pipeline()` method with the task you want to accomplish as an argument. And you assign a name to it. You are done now. You can now begin to use the object as a function to achieve what you want. Let's see an example-
@@ -84,6 +85,7 @@ See, how the classifier is aware of my emotion about pineapple pizzas? 🙃
 
 ____
 
+
 ### Zero-Shot Classification
 
 When you want to classify something using Deep Learning, in many cases you need to train it with labeled examples. This approach is known as Supervised Learning. Even when leveraging transfer learning, you need to train your model with quite a few labeled examples in the domain of your choice. Zero-shot classification is different than that. In this, you use a pre-trained model to classify a given string and some labels of your choice. The model returns you the confidence score for each model.
@@ -92,7 +94,6 @@ Let me show you how this works. First, you instantiate an object and assign it a
 
 ```py
 classifier_zero_shot = pipeline("zero-shot-classification")
-
 ```
 
 Then you pass a string, along with the labels of your choice to test how well they correspond to your sentence.
@@ -105,6 +106,7 @@ Essentially, when you are doing Zero-Shot Classification, you are supplying a st
 
 ___
 
+
 ### Text Generation
 
 Before I heard about Deep Learning, I heard about Natural Language Processing, because I heard that you can generate text with it! This is the most exciting part of NLP to me, personally.
@@ -113,7 +115,6 @@ As the name suggests, this `pipeline` lets you generate text. It just needs you 
 
 ```py
 generator = pipeline("text-generation")
-
 ```
 
 <iframe src="https://www.kaggle.com/embed/truthr/a-gentle-introduction-to-the-hugging-face-api?cellId=6&cellIds=30&kernelSessionId=66118660" height="230" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="A Gentle Introduction to the Hugging Face API"></iframe>
@@ -137,7 +138,6 @@ In this pipeline, if there is a word that you hide and supply the string with th
 
 ```py
 unmasker = pipeline("fill-mask")
-
 ```
 
 You pass the sentence with the masked word, and it will predict it. You can choose the number of predictions you want to see. You just have to pass a value to the `top_k` parameter.
@@ -157,7 +157,6 @@ This `pipeline` recognizes the proper nouns in your sentence. And it also classi
 
 ```py
 ner = pipeline("ner", grouped_entities=True)
-
 ```
 
 
@@ -175,7 +174,6 @@ This pipeline provides you with an answer to a question you ask from the context
 
 ```py
 question_answerer = pipeline("question-answering")
-
 ```
 
 <iframe src="https://www.kaggle.com/embed/truthr/a-gentle-introduction-to-the-hugging-face-api?cellId=6&cellIds=51&kernelSessionId=66118660" height="210" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="A Gentle Introduction to the Hugging Face API"></iframe>
@@ -186,6 +184,7 @@ It can answer multiple questions from the same prompt.
 
 ____
 
+
 ### Summarization
 
 This is one of the most practical tasks that has existed for a long time. Deep Learning really changes the landscape of the task.
@@ -194,7 +193,6 @@ Let's see it in action.
 
 ```py
 summarizer = pipeline("summarization")
-
 ```
 
 Let's summarize a piece of text from a [blog post](https://blog.royalsloth.eu/posts/i-wish-i-could-write-this-well/) I recently read.
@@ -205,6 +203,7 @@ Now, that's something! The efficacy of the summarizer really shocked me. It does
 
 ___
 
+
 ### Translation
 
 The translation `pipeline` translates a piece of text from one language to another. It also lets you choose the language model of your choice.
@@ -213,7 +212,6 @@ First, let's translate a text from English to German. I will use the [`Helsinki-
 
 ```py
 translator_de = pipeline("translation", model="Helsinki-NLP/opus-mt-en-de")
-
 ```
 
 <iframe src="https://www.kaggle.com/embed/truthr/a-gentle-introduction-to-the-hugging-face-api?cellId=6&cellIds=64&kernelSessionId=66118660" height="165" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="A Gentle Introduction to the Hugging Face API"></iframe>
@@ -227,7 +225,9 @@ translator_bn = pipeline("translation", model="Helsinki-NLP/opus-mt-bn-en")
 ```
 
 <iframe src="https://www.kaggle.com/embed/truthr/a-gentle-introduction-to-the-hugging-face-api?cellId=6&cellIds=68&kernelSessionId=66118660" height="165" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="A Gentle Introduction to the Hugging Face API"></iframe>>
+
 ____
+
 
 ### Conclusion
 
@@ -242,10 +242,11 @@ Here are the suggested next steps-
 
 ___
 
+
 If you notice any error, mistake, or typo, please feel free to let me know. If something is not clear, please let me know that as well. I will do my best to correct it and will credit you here.
 
 Let me know if you have any questions at all.
 
 ___
 
-*(Originally [published as a Notebook](https://www.kaggle.com/truthr/a-gentle-introduction-to-the-hugging-face-api) in Kaggle.)*
+*(Originally [published as a Notebook](https://www.kaggle.com/truthr/a-gentle-introduction-to-the-hugging-face-api) on Kaggle.)*
